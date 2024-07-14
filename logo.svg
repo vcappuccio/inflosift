@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5cb85c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#grad)" />
+  
+  <!-- Black line above letters -->
+  <line x1="30" y1="25" x2="70" y2="25" stroke="black" stroke-width="3" />
+  
+  <!-- 'I' letter -->
+  <rect x="35" y="30" width="10" height="40" fill="white" />
+  
+  <!-- 'S' letter -->
+  <path d="M55 35 Q65 35 65 45 Q65 55 55 55 Q45 55 45 65 Q45 75 55 75" 
+        stroke="white" stroke-width="10" fill="none" />
+  
+  <!-- Magnifying glass handle -->
+  <rect x="67.5" y="67.5" width="20" height="7.5" rx="2.5" ry="2.5" 
+        transform="rotate(45, 67.5, 67.5)" fill="white" />
+  
+  <!-- Sparkles -->
+  <circle cx="20" cy="20" r="2" fill="yellow">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="80" cy="30" r="2" fill="yellow">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="75" cy="80" r="2" fill="yellow">
+    <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Star sparkle -->
+  <path d="M15 60 L17 65 L22 67 L17 69 L15 74 L13 69 L8 67 L13 65 Z" fill="yellow">
+    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" />
+  </path>
+</svg>
