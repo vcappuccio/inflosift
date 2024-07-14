@@ -51,6 +51,7 @@ Decompress and organize your support bundle:
 ```bash
 python support_bundle_flattener.py <source_directory> <destination_directory>
 ```
+you might need to run the above several times :)
 
 ### 2. Log Analyzer
 
@@ -114,9 +115,6 @@ Refer to our [Contribution Guide](CONTRIBUTING.md) for more details on how to ex
 
 For more detailed troubleshooting, refer to our [FAQ](FAQ.md) or [open an issue](https://github.com/vcappuccio/inflosift/issues).
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Contributing
 
